@@ -1,7 +1,6 @@
 import torch
 from transformers import BertTokenizer, BertModel, BertForMaskedLM
 
-
 #加载预训练好的模型、分词器
 model_name = 'bert-base-uncased'
 model = BertModel.from_pretrained(model_name)
